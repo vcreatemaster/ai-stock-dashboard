@@ -208,7 +208,6 @@ If you find this project helpful, please give it a ⭐ on GitHub!
 
 For questions or issues:
 - Open an [Issue](https://github.com/erikthiart/ai-stock-dashboard/issues)
-- Start a [Discussion](https://github.com/erikthiart/ai-stock-dashboard/discussions)
 
 ---
 
