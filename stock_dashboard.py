@@ -488,7 +488,7 @@ def main():
     )
     
     if stock_choice == 'Custom':
-        symbol = st.sidebar.text_input("Enter Stock Symbol:", value="AAPL", max_chars=10).upper()
+        symbol = st.sidebar.text_input("Enter Stock Symbol:", value="AAPL", max_chars=20).upper()
     else:
         symbol = popular_stocks[stock_choice]
     
