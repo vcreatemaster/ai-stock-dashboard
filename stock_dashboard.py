@@ -467,7 +467,7 @@ def create_performance_metrics(data, symbol):
 
 # Streamlit App
 def main():
-    st.title("🚀 Professional AI Stock Market Dashboard")
+    st.title("🚀 AI Stock Market Dashboard")
     st.markdown("*Advanced technical analysis with machine learning predictions*")
     
     # Sidebar
