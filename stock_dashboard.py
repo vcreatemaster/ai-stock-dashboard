@@ -476,7 +476,7 @@ def main():
     
     # Stock selection with popular choices
     popular_stocks = {
-        'Apple': 'AAPL', 'Microsoft': 'MSFT', 'Google': 'GOOGL', 
+        'Gold Futures': 'GC+F', 'Etherium': 'ETH-USD', 'Lemontree': 'LEMONTREE.NS', 
         'Amazon': 'AMZN', 'Tesla': 'TSLA', 'NVIDIA': 'NVDA',
         'Meta': 'META', 'Netflix': 'NFLX', 'AMD': 'AMD', 'Intel': 'INTC'
     }
