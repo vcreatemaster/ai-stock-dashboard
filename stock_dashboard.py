@@ -544,7 +544,7 @@ def main():
     with col1:
         st.metric(
             label="💰 Current Price",
-            value=f"${latest_price:.2f}",
+            value=f"{latest_price:.2f}",
             delta=f"{price_change:.2f} ({price_change_pct:+.2f}%)"
         )
     
@@ -586,11 +586,11 @@ def main():
         market_cap = info.get('marketCap', 0)
         if market_cap:
             if market_cap > 1e12:
-                cap_display = f"${market_cap/1e12:.2f}T"
+                cap_display = f"{market_cap/1e12:.2f}T"
             elif market_cap > 1e9:
-                cap_display = f"${market_cap/1e9:.1f}B"
+                cap_display = f"{market_cap/1e9:.1f}B"
             else:
-                cap_display = f"${market_cap/1e6:.0f}M"
+                cap_display = f"{market_cap/1e6:.0f}M"
             st.metric(label="🏢 Market Cap", value=cap_display)
         else:
             st.metric(label="🏢 Market Cap", value="N/A")
@@ -630,7 +630,7 @@ def main():
                 with pred_col1:
                     st.metric(
                         label="🎯 Next Day Prediction",
-                        value=f"${prediction:.2f}",
+                        value=f"{prediction:.2f}",
                         delta=f"{predicted_change:+.2f}%"
                     )
                 
@@ -718,8 +718,8 @@ def main():
                     "Price to Book": f"{info.get('priceToBook', 'N/A'):.2f}" if info.get('priceToBook') else 'N/A',
                     "Dividend Yield": f"{info.get('dividendYield', 0)*100:.2f}%" if info.get('dividendYield') else 'N/A',
                     "Beta": f"{info.get('beta', 'N/A'):.2f}" if info.get('beta') else 'N/A',
-                    "52W High": f"${info.get('fiftyTwoWeekHigh', 'N/A'):.2f}" if info.get('fiftyTwoWeekHigh') else 'N/A',
-                    "52W Low": f"${info.get('fiftyTwoWeekLow', 'N/A'):.2f}" if info.get('fiftyTwoWeekLow') else 'N/A'
+                    "52W High": f"{info.get('fiftyTwoWeekHigh', 'N/A'):.2f}" if info.get('fiftyTwoWeekHigh') else 'N/A',
+                    "52W Low": f"{info.get('fiftyTwoWeekLow', 'N/A'):.2f}" if info.get('fiftyTwoWeekLow') else 'N/A'
                 }
                 
                 for key, value in financial_info.items():
