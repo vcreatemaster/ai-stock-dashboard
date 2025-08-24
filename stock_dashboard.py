@@ -477,7 +477,7 @@ def main():
     # Stock selection with popular choices
     popular_stocks = {
         'Gold Futures': 'GC=F', 'Etherium': 'ETH-USD', 'Lemontree': 'LEMONTREE.NS', 
-        'BitCoin': 'BTC-USD', 'Tesla': 'TSLA', 'NVIDIA': 'NVDA',
+        'BitCoin': 'BTC-USD', 'XRP': 'XRP-USD', 'NVIDIA': 'NVDA',
         'Meta': 'META', 'Netflix': 'NFLX', 'AMD': 'AMD', 'Intel': 'INTC'
     }
     
